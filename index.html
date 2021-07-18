@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Friday</title>
+    <style>
+        text{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="corpo">
+    <div class="faixa1">
+        <img src="./assets/logo.png" id="logo">
+    </div>
+    <div class="faixa2">
+        <div class="div-text">
+            <h1 class="textos1">Descontos de até <span style="color: red;">85%!!!</span></h1>
+            <p class="textos1">Aproveite!!!</p>
+        </div>
+    </div>
+    <div class="faixa3">
+        <div class="produtos">
+            <img class="img-produtos" src="./assets/livro-anjos-da-morte-300x300.jpg" alt="Livro">
+            <img class="img-produtos2" src="./assets/livro-anjos-da-morte-02-300x300.jpg" alt="Livro">
+            <p class="descricao">Livro Filhos do Éden: Anjos da morte</p>
+            <p>de <span class="de" >R$ XX,XX</span></p>
+            <p class="preco"><span class="por">por apenas </span>R$ 5,99</p>
+        </div>
+        <div class="produtos">
+            <img class="img-produtos" src="./assets/camiseta-dark-02-300x300.jpg" alt="Camiseta">
+            <img class="img-produtos2" src="./assets/camiseta-dark-300x300.jpg" alt="Camiseta">
+            <p class="descricao">Camiseta da série Dark</p>
+            <p>de <span class="de" >R$ XX,XX</span></p>
+            <p class="preco"><span class="por">por apenas </span>R$ 11,99</p>
+        </div>
+        <div class="produtos">
+            <img class="img-produtos" src="./assets/moleton-cthulhu-blackout-edition-05-300x300.jpg" alt="Moletom">
+            <img class="img-produtos2" src="./assets/moleton-cthulhu-blackout-edition-01-250x250.jpg" alt="Moletom">
+            <p class="descricao">Moleton Cthulhu blackout edtion</p>
+            <p>de <span class="de" >R$ 249,9</span></p>
+            <p class="preco"><span class="por">por apenas </span>R$ 194,00</p>
+        </div>
+    </div>
+    <div class="faixa-adicional">
+        <div class="div-text">
+            <h1 class="texto2">Cadastre seu e-mail e receba promoções exclusivas!</h1>
+        </div>
+    </div>
+    <div class="faixa4">
+        <div class="img-fim">
+            <img src="./assets/nerdinho.png" alt="nerdinho" id="nerdinho">
+        </div>
+        <div class="bloco-cadastro">
+            <p class="txt-cadastro">Nome:</p>
+            <input type="text" id="input-texto-nome" placeholder="ex.: Mateus">
+            <p class="txt-cadastro">E-mail:</p>
+            <input type="email" id="input-texto-email" placeholder="ex.: mateus123@gmail.com">
+            <p></p>
+            <input id="enviar" type="submit" onclick="salvarNaStorage()">
+        </div>
+        <div>
+            <img id="logo-fim" src="./assets/2560px-Logo_Nerdstore.svg.png" alt="logo fim">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
